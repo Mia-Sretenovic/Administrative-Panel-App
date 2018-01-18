@@ -1,0 +1,62 @@
+.candidate{
+    border-bottom: 1px solid rgb(204, 198, 198);
+    padding: 20px 0 5px 0;
+}
+
+.candidate h6{
+    color: grey;
+}
+
+.candidate .col-5{
+    padding: 0;
+    margin: 0;
+}
+
+.candidate .col-2{
+    padding: 0;
+    margin: 0;
+}
+
+.breaker{
+    border-bottom:1px solid #cfd1d3;
+}
+
+.delete-button{
+    text-decoration: bold;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.modal-dialog{
+    min-width: 700px;
+}
+
+@media screen and (min-width: 360px) {
+    .modal-dialog {
+        min-width: 300px;
+    }
+    .notes-container{
+        padding-left: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        min-width: 500px;
+    }
+}
+
+.modal-dialog h6{
+    color: grey;
+    padding-top: 15px;
+}
+
+.modal-title{
+    float: left;
+}
+
+.modal-header{
+    display: block;
+}

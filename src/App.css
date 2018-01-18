@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+.main-page{
+  background-color: whitesmoke;
+  padding: 0;
+}
+ .form-group .form-control.form-control-lg{
+  margin-top: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.header{
+  text-align: center;
+  background-color: rgb(39, 37, 37);
+  color: white;
+  padding: 40px;
+}
+.header input{
+  width: 300px;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 5px;
+  color: white;
+}
+.header button{
+  background-color: white;
+  border: none;
+  padding: 5px;
+  margin: 4px;
+}
+
+table th{
+  padding: 10px;
+}
+.mainpage{
+  background-color: #fff;
+}
+.landingPage{
+  min-height: 900px;
+}

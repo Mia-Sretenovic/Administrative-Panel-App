@@ -1,0 +1,56 @@
+.select-candidate{
+    padding: 20px;
+    border-bottom: 1px solid #eeeedf;
+}
+
+.candidate-row:hover{
+    background-color: #E6DFDF;
+    -webkit-box-shadow: darkgrey 0px 0 20px;
+    -moz-box-shadow: darkgrey 0 0 20px;
+    box-shadow: darkgrey 0 0 20px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.form-group{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.custom-btn{
+    color: rgba(192, 96, 22, 0.753);
+    box-shadow: 0px 5px 0px 0px #A66615;
+    padding: 10px;
+    border: none;
+    float: right;
+    margin: 20px;
+    display: block;
+    position: relative;
+    float: right;
+    width: 120px;
+    padding: 0;
+    margin: 10px 20px 10px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.2s ;
+}
+
+.custom-btn:hover {
+    box-shadow: 0px 0px 0px 0px #A66615;
+}
+
+.custom-btn:disabled{
+    background-color: rgba(255, 115, 0, 0.808);
+    float: right;
+}
+
+.user-info h2{
+    text-align: center;
+    padding: 20px;
+    color: rgb(109, 107, 107);
+}

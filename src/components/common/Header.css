@@ -1,0 +1,38 @@
+nav{
+    background-color: grey;
+    color: #fff;
+}
+
+nav .row{
+    padding: 0;
+    margin: 0;
+}
+
+.buttons-container{
+    width: 100%;
+    float: right;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.select-button{
+    margin-left: 1rem;
+
+}
+
+@media only screen and (max-width: 500px) {
+    .select-button {
+        float: right
+    }
+}
+@media only screen and (max-width: 769px) {
+    .select-button {
+        display:inline-block;
+        float: right;
+    }
+}
+
+
+

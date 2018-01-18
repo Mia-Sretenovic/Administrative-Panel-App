@@ -1,0 +1,48 @@
+.create-reports{
+    background-color: #fff;
+    min-height: 900px;
+}
+
+.company-section h2{
+    color: indigo;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.selection-box{
+    margin-top: 2rem;
+    margin-left: 0px;
+}
+
+.candidate-button{
+    width:30%;
+    margin: 5px;
+    padding: 8px;
+    background-color: rgba(255, 115, 0, 0.808);
+    color: #fff;
+    border: none;
+}
+
+.candidate-button:last-child{
+    margin-bottom: 20px;
+}
+
+.candidate-button:disabled{
+    background-color: rgba(192, 96, 22, 0.753);
+}
+
+.select-user{
+    margin-top:30px;
+    padding-left: 60%;
+    width: 100%;
+}
+
+.user-information{
+    margin-left: 10%;
+}
+
